@@ -6,9 +6,13 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "start": "nodemon index.js",
     "prod": "node index.js",             
     "build": "echo 'No build step needed for plain Node.js'"
+=======
+    "start": "node index.js"
+>>>>>>> dd037aa3548c9821b7466201b9dc7dfb002e5d83
   },
   "keywords": [
     "Full",
