@@ -1,7 +1,7 @@
 //defining functions and write actual logical part
 
 import User from "../model/user.model.js";
-import { z } from "zod";                // zod is a library for emain, password validation. Means if there are no "@" in the email and is there are less than 3 characters is the password, then the email and password is invalid.
+import { z } from "zod";               // zod is a library for emain, password validation. Means if there are no "@" in the email and is there are less than 3 characters is the password, then the email and password is invalid.
 import bcrypt from "bcrypt";            // bcrypt is a library to secure password. In database, the user's password will not be visible as actual value, the password will be visibile as hashed value
 import { generateTokenAndSaveInCookies } from "../jwt/token.js";
 
